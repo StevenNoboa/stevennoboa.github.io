@@ -1137,7 +1137,7 @@ padding-bottom: 40px;
 .contact-info{
     width: 40%;
     height: 500px;
-    background: url(../images/contact-back.jpg);
+    background: url(../images/contact-back.png);
     background-position: center;
     background-size: cover;
     border-radius: 16px;
@@ -1228,7 +1228,7 @@ form button{
     font-family: poppins;
     font-size:20px;
     color: whitesmoke;
-    background:#BB0035;
+    background:#5F9EA0;
     opacity: .8;
     margin: 20px;
     cursor: pointer;
