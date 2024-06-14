@@ -661,7 +661,7 @@ body{
 
 #skills {
     padding: 50px 0;
-    background: #099b8f;
+    background: #000000;
 }
 
 .skills-content {
@@ -690,10 +690,10 @@ body{
 }
 
 .skill-name {
-    font-size: 18px;
+    font-size: 20px;
     margin-right: 10px;
     color: whitesmoke;
-    font-family: raleway
+    font-family: raleway;
 }
 
 .skill-check {
