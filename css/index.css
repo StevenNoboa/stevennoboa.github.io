@@ -575,7 +575,7 @@ body{
     padding:2.5%;
 }
 .service{
-    height:380px;
+    height:400px;
     width:28%;
     margin: 1.5%;
     background-color: #191919;
@@ -652,6 +652,65 @@ body{
     margin-top: 20px;
     margin-bottom: 80px;
 }
+
+
+
+
+
+
+
+#skills {
+    padding: 50px 0;
+    background: #099b8f;
+}
+
+.skills-content {
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+}
+.skill-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: center;
+    color: whitesmoke; 
+}
+
+.skill-icon {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.skill-text {
+    display: flex;
+    align-items: center;
+}
+
+.skill-name {
+    font-size: 18px;
+    margin-right: 10px;
+    color: whitesmoke;
+    font-family: raleway
+}
+
+.skill-check {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
 .skill-html{
     height: auto;
     width: 45%;
@@ -1224,7 +1283,7 @@ form button:hover{
     padding: 20px;
     color: whitesmoke;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font-family: poppins;
     align-items: center;
     justify-content: center;
@@ -1235,6 +1294,7 @@ form button:hover{
     font-size: 18px;
     font-weight: 400;
     opacity: 1;
+    text-align: center;
 }
 .color-changer{
     height: auto;
