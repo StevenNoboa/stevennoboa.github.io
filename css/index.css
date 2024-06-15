@@ -263,11 +263,11 @@ body{
     z-index: 2;
     font-weight:700;
     font-family: poppins;
-    font-size: 65px;
+    font-size: 85px;
 }
 .header-content .secondline{
     z-index: 2;
-    font-size: 30px;
+    font-size: 45px;
     padding-top:20px ;
     font-weight:500;
     color: rgb(255, 255, 255,.8);
@@ -311,7 +311,7 @@ body{
 }
 .social-media{
     color: white;
-    width:  45px;
+    width:  60px;
     ;
     opacity: .6;
     margin: 8px;
@@ -640,7 +640,7 @@ body{
     justify-content: center;
     font-size: 45px;
     font-family: raleway;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     padding:10px;
     padding-bottom: 30px;
     padding-top: 30px;
@@ -661,7 +661,7 @@ body{
 
 #skills {
     padding: 50px 0;
-    background: #000000;
+    background: #ffffff;
 }
 
 .skills-content {
@@ -675,7 +675,7 @@ body{
     align-items: center;
     margin-bottom: 15px;
     justify-content: center;
-    color: whitesmoke; 
+    color: rgb(0, 0, 0); 
 }
 
 .skill-icon {
@@ -692,7 +692,7 @@ body{
 .skill-name {
     font-size: 20px;
     margin-right: 10px;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     font-family: raleway;
 }
 
