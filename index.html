@@ -468,12 +468,12 @@
 
   document.getElementById('myForm').addEventListener('submit', function(event) {
       event.preventDefault();
-      
+
       const form = event.target;
       const formData = new FormData(form);
       const data = Object.fromEntries(formData.entries());
 
-      fetch('https://script.google.com/macros/s/AKfycbxqimyu2QEEQzSeDHJzVG2dL2nLflj1FEpc2IhvKHYKEvQ3orwR5LKzUcFLyqhv_TQG/exec', {  // Reemplaza YOUR_SCRIPT_ID con el ID de tu script
+      fetch('https://script.google.com/macros/s/AKfycbxqimyu2QEEQzSeDHJzVG2dL2nLflj1FEpc2IhvKHYKEvQ3orwR5LKzUcFLyqhv_TQG/exec', {  // Reemplaza con la URL de tu API de Google App Engine
         method: 'POST',
         body: JSON.stringify(data),
         headers: {
