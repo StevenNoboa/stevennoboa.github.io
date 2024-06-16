@@ -143,11 +143,11 @@
             <div class="about-first-paragraph wow">
             <!--about description-->
                <span class="about-first-line">
-                    I'm a
-                    <span class="color">data scientist</span>
-                     based in Madrid , Spain </span>
+                    Soy 
+                    <span class="color">data scientist. Profesional, responsable y analítico.</span>
+
                      <br>
-               <span class="about-second-line"> As a professional Data Scientist, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step while working.</span>
+               <span class="about-second-line"> Como graduado en Data Science, he adquirido las habilidades y el conocimiento necesario para desarrollar proyectos con éxito y eficiencia. Disfruto de este sector, cada paso y reto son una motivación par mí.</span>
                <div class="cv">
                     <a href="files/CV_StevenNoboa.pdf" download="CV_StevenNoboa.pdf">
                         <button>Descargar <span class="colors">CV</span></button></a>
@@ -257,19 +257,38 @@
                 <div class="skills-header">
                     My <span class="color"> Skills</span>
                 </div>
-                <div class="skills-content" style="text-align: center;">
-                    <div class="skill-item">
-                        <img src="images/python.png" alt="HTML/CSS" class="skill-icon">
-                        <div class="skill-text">
-                            <div class="skill-name">Python</div>
-                            <img src="images/check.png" alt="Check" class="skill-check">
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <img src="images/psgsql.png" alt="Javascript" class="skill-icon">
-                        <div class="skill-text">
-                            <div class="skill-name">PstgresSQL</div>
-                            <img src="images/check.png" alt="Check" class="skill-check">
+                            <div class="badge-container">
+                                <div class="badge-column">
+                                    <a href="https://skillicons.dev">
+                                        <img src="https://skillicons.dev/icons?i=py,git,docker,html,aws,gcp" />
+                                    </a>
+                                </div>
+                                <div class="badge-column">
+                                    <a href="https://skillicons.dev">
+                                        <img src="https://skillicons.dev/icons?i=flask,github,mongodb,mysql,azure" />
+                                    </a>
+                                </div>
+                                <div class="badge-column">
+                                    <a href="https://skillicons.dev">
+                                        <img src="https://skillicons.dev/icons?i=opencv,postgres,postman,regex,sqlite,stackoverflow,md,sklearn,selenium,tensorflow,visualstudio,vscode" />
+                                    </a>
+                                </div>
+                            </div>
+                                    <!-- <div class="skills-content" style="text-align: center;">
+                                        <div class="skill-item">
+                                            <img src="images/python.png" alt="HTML/CSS" class="skill-icon">
+                                            <div class="skill-text">
+                                                <div class="skill-name">Python</div>
+                                                <img src="images/check.png" alt="Check" class="skill-check">
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <img src="images/psgsql.png" alt="Javascript" class="skill-icon">
+                                            <div class="skill-text">
+                                                <div class="skill-name">PstgresSQL</div>
+                                                <img src="images/check.png" alt="Check" class="skill-check">
+                                            </div>
+                                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -310,9 +329,23 @@
                 </div>
                 </div>
             <div class="portfolio-header"> <span class="color"> My </span> Portfolio
-            <span class ="header-caption"> Some Of My <span class="color"> Works</span></span></div>
+            <span class ="header-caption"> Estos son mis <span class="color"> Proyectos</span></span></div>
              <div id="portfolio-content">
-                 <div class="portfolio portfolio-first">
+                <div class="portfolio portfolio-first">
+                    <div class="portfolio-image">
+                        <img src="images/tb-se.jpg" alt="portfolio-third">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2> Proyecto final Data Science - Bootcamp</h2>
+                        <p>Proyecto real en colaboración con la empresa Several Energy, el cual concluyó con éxito para nuestro equipo, resultando ganadores del mismo. EL Proyecto se centra en la creación, desarrollo y aplicación de un proceso de automatización de extracción de datos y autorrellenado de formularios para el equipo de ventas y su aplicación web. Reporte analítico con PowerBI y creación de una base de datos relacional. </p>
+                        <a href="https://github.com/The-Bridge-Challenge/DATA-SCIENCE.git">
+                            <button>
+                                <span class="index">View Project in Github <i class="gg-arrow-right"></i></span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                 <div class="portfolio portfolio-second">
                      <div class="portfolio-image">
                         <img src="images/portfolio-first.jpg" alt="portfolio-first">
                      </div>
@@ -320,7 +353,7 @@
                          <h2>Análisis del precio de coches de segunda mano en España
                         </h2>
                          <p>Conoceremos cómo se establece la variable precio respecto a otras: tipo de combustible, año de producción, kms, potencia, provincia...
-                            Entnderemos los factores, relaciones y distribuciones del mercado</p>
+                            Entnderemos los factores, relaciones y distribuciones del mercado.</p>
                             <a href="https://github.com/StevenNoboa/Analisis-del-precio-de-coches-de-segunda-mano-en-Espana.git">
                                 <button>
                                     <span class="index">View Project in Github <i class="gg-arrow-right"></i></span>
@@ -328,7 +361,7 @@
                             </a>
                      </div>
                  </div>
-                 <div class="portfolio portfolio-second">
+                 <div class="portfolio portfolio-third">
                     <div class="portfolio-image">
                         <img src="images/portfolio-second.jpg" alt="portfolio-second">
                     </div>
@@ -344,13 +377,15 @@
                         </a>
                     </div>
                 </div>
-                <div class="portfolio portfolio-third">
+                <div class="portfolio portfolio-four">
                     <div class="portfolio-image">
-                        <img src="images/portfolio-third.jpg" alt="portfolio-third">
+                        <img src="images/dark_library.png" alt="portfolio-third">
                     </div>
                     <div class="portfolio-text">
-                        <h2>Api-BBDD-Modelo ML</h2>
-                        <p>Desarrollar una API con Flask para desplegar un modelo de machine learning que predice ventas a partir de gastos en marketing en televisión, radio y periódicos. La API permitirá que una web interna, desarrollada en AngularJS, consuma el modelo y se comunique con una base de datos para ingestar nuevos registros y reentrenar el modelo. </p>
+                        <h2>Proyecto de base de datos con AWS RDS, Flask y OpenAI</h2>
+                        <p>Creación de una aplicación cuyo objetivo principal es conectar una base de datos SQL alojada en AWS con Langchaim de OpenAI utilizando Flask (python).
+                            La aplicación permite a los usuarios subir archivos en formato de texto plano (.txt), scripts de Python (.py) y cuadernos Jupyter (.ipynb). Estos archivos se procesan utilizando la tecnología Langchaim de OpenAI para realizar tareas como resúmenes automáticos o incluso generar chistes basados en el contenido de los archivos.
+                        </p>
                         <a href="https://github.com/StevenNoboa/Apis_BBDD_Model.git">
                             <button>
                                 <span class="index">View Project in Github <i class="gg-arrow-right"></i></span>
@@ -358,14 +393,14 @@
                         </a>
                     </div>
                 </div>
-                <div class="portfolio portfolio-fourth">
+                <div class="portfolio portfolio-five">
                     <div class=" portfolio-image">
-                        <img src="images/portfolio-fourth.jpg" alt="portfolio-fourth">
+                        <img src="images/portfolio-third.jpg" alt="portfolio-fourth">
                     </div>
                     <div class="portfolio-text">
-                        <h2>Wow Graphics</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate
-                             expedita eius dignissimos. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
+                        <h2>Api-BBDD-Modelo ML</h2>
+                        <p>Desarrollar una API con Flask para desplegar un modelo de machine learning que predice ventas a partir de gastos en marketing en televisión, radio y periódicos. La API permitirá que una web interna, desarrollada en AngularJS, 
+                            consuma el modelo y se comunique con una base de datos para ingestar nuevos registros y reentrenar el modelo. </p>
                         <div class="button"><a href="#"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
                     </div>
                 </div>
@@ -408,55 +443,70 @@
                 </div>
             </div>
             </div>
-         <div class="contact-header">Contact <span class="color"> Me</span>
-        <div class="contact-header-caption"> <span class="color"> Get</span> In Touch.</div></div>
-        <div class="contact-content">
-            <!--Contact form-->
-             <div class="contact-form">
-                 <div class="form-header">
-                     Message Me
-                     <form id="myForm">
-                        <div class="input-line">
-                          <input id="name" name="name" type="text" placeholder="Name" class="input-name" required>
-                          <input id="email" name="email" type="email" placeholder="Email" class="input-name" required>
+            <div class="contact-header">
+                Listo para el<span class="color"> próximo desafío.</span>
+                <div class="contact-header-caption">Get <span class="color">In touch.</span></div>
+            </div>
+            <div class="contact-content">
+                <!-- Contact form-->
+                <div class="contact-form">
+                    <div class="form-header">
+                        
+                        <form id="myForm">
+                            Actualmente estoy abierto a oportunidades de proyectos o trabajo. <span class="color"> No dudes en conectarte conmigo.</span>
+                            Gracias por considerar mi perfil y visitar mi portfolio. Estoy deseando hablar contigo. <span class="color"> 
+                            </div>
                         </div>
-                        <input type="text" id="subject" name="subject" placeholder="Subject" class="input-subject" required>
-                        <textarea id="body" name="body" class="input-textarea" placeholder="Message" required></textarea>
-                        <button type="submit" id="submit">Submit</button>
-                      </form>
-                 </div>
-                 
-               
-             </div>
             <!--Contact form-->
             <!--Contact information-->
-             <div class="contact-info">
+            <div class="contact-info">
                 <div class="contact-info-header">
                     Contact Info
                 </div>
                 <div class="contact-info-content">
-                <div class="contect-info-content-line">
-                    <img src="./images/icon-name.png" class="icon" alt="name-icon">
-                    <div class="contact-info-icon-text">
-                        <h6>Name</h6>
-                        <p>Steven Noboa</p>
-                  </div>
+                    <div class="contect-info-content-line">
+                        <img src="./images/icon-name.png" class="icon" alt="name-icon">
+                        <div class="contact-info-icon-text">
+                            <h6>Name</h6>
+                            <p>Steven Noboa</p>
+                        </div>
+                    </div>
+                    <div class="contect-info-content-line">
+                        <img src="./images/icon-location.png" class="icon" alt="location-icon">
+                        <div class="contact-info-icon-text">
+                            <h6>Location</h6>
+                            <p>Madrid, Spain</p>
+                        </div>
+                    </div>
+                    <div class="contect-info-content-line">
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=stevennoboaordonez@gmail.com" target="_blank">
+                            <img src="images/correo.png" alt="correo-img" class="images" height="30px">
+                        </a>
+                        <div class="contact-info-icon-text">
+                            <h6>Email</h6>
+                            <p>stevennoboaordonez@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contect-info-content-line">
+                        <a href="https://www.linkedin.com/in/steven-noboa-ordóñez-24055810b/" target="_blank">
+                            <img src="images/linkedin logo.png" alt="linkedin-logo" class="images" height="40px">
+                        </a>
+                        <div class="contact-info-icon-text">
+                            <h6>Linkedin</h6>
+                            <p>Perfil profesional</p>
+                        </div>
+                    </div>
+                    <div class="contect-info-content-line">
+                        <a href="https://github.com/StevenNoboa" target="_blank">
+                            <img src="images/github.png" alt="github-logo" class="images" height="40px">
+                        </a>
+                        <div class="contact-info-icon-text">
+                            <h6>Github</h6>
+                            <p>Repositorio de proyectos</p>
+                        
+                    </div>
                 </div>
-                <div class="contect-info-content-line">
-                  <img src="./images/icon-location.png" class="icon" alt="location-icon">
-                  <div class="contact-info-icon-text">
-                      <h6></h6>
-                      <p>Madrid, Spain</p>
-                </div>
-                </div>
-              </div>
-              
-              <div class="contect-info-content-line">
-                  <img src="images/correo.png" class="icon" alt="email-icon">
-                  <div class="contact-info-icon-text">
-                    <h6>stevennoboaordonez@gmail.com</h6>
-                    
-                    <p></p>
+            </div>
                 </div>
               </div>
                 </div>
