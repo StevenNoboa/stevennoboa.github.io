@@ -14,7 +14,7 @@
 }
 ::-webkit-scrollbar{
     width: 4px;
-    color:#5F9EA0;
+    color: #90A9B0;
     transition: all .4s ease;
 }
 ::-webkit-scrollbar-thumb {
