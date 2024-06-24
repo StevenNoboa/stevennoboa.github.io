@@ -130,7 +130,7 @@ body{
     width: 50%;
     top:0;
     right:0;
-    background-color:whitesmoke;
+    background-color:#5F9EA0;
     transition: all .5s ease;
 
 }
@@ -144,7 +144,7 @@ body{
     width: 75%;
     top:0;
     right:0;
-    background-color:whitesmoke;
+    background-color: #5F9EA0;
     transition: all .3s ease;
 }
 .menubar .third-span{
@@ -157,7 +157,7 @@ body{
     width: 100%;
     top:0;
     right:0;
-    background-color:whitesmoke;
+    background-color: #5F9EA0;
     transition: all .3s ease;
 }
 .menubar:hover .second-span::before , .menubar:hover .first-span::before {
@@ -232,7 +232,7 @@ body{
     background-size: cover;
     background-position: center;
     width: 40%;   
-    height: 100vh;
+    height: 80vh;
 
 }
 .header-content{
@@ -243,7 +243,7 @@ body{
     position: absolute;
     align-items: center;
     justify-content: center;
-    color: whitesmoke;
+    color: rgb(245, 245, 245);
     font-family: raleway;
     font-weight: 400;
     letter-spacing: 1px;
