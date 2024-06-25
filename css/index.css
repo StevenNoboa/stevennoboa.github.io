@@ -229,7 +229,7 @@ body{
     right: 0;
     transform: translateY(-50%);
     width: 35%; /* Ajusta según sea necesario */
-    height: 60%; /* Mantén las dimensiones iguales para asegurar un círculo perfecto */
+    height: 70%; /* Mantén las dimensiones iguales para asegurar un círculo perfecto */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1450,18 +1450,10 @@ For devices with smaller width like mobile phone
     .contact{
         display: none;
     }
-    .header-image {
-        position: absolute;
-        top: 50%;
-        right: 0;
-        transform: translateY(-50%);
-        width: 35%; /* Ajusta según sea necesario */
-        height: 60%; /* Mantén las dimensiones iguales para asegurar un círculo perfecto */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden; /* Asegura que cualquier parte de la imagen fuera del círculo no se muestre */
-        border-radius: 50%; /* Hace que el contenedor sea un círculo */  
+    .header-image{
+        float: right;
+        height: auto;
+        width: 0%;   
     }
     .social-media-links{
         width: 100%;
@@ -1751,8 +1743,8 @@ For devices with smaller width like mobile phone
                 height: 500px;
                 background-position: center;
                 background-size: cover;
-                border-radius: 18px;
-                margin-bottom: 30px;
+                border-radius: 16px;
+                margin-bottom: 25px;
                 position: relative;
                 overflow: hidden;
             }
@@ -1913,25 +1905,10 @@ for tabs and large phones
         letter-spacing: 2px;
         font-size: 40px;
     }
-    .header-image {
-        position: absolute;
-        top: 50%;
-        right: 0;
-        transform: translateY(-50%);
-        width: 35%; /* Ajusta según sea necesario */
-        height: 60%; /* Mantén las dimensiones iguales para asegurar un círculo perfecto */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden; /* Asegura que cualquier parte de la imagen fuera del círculo no se muestre */
-        border-radius: 50%; /* Hace que el contenedor sea un círculo */
-        
-    }
-    .header-image img {
-        width: 100%;
-        height: 100%; /* Mantén la proporción de la imagen */
-        border-radius: 50%;
-        object-fit: contain; /* Asegura que la imagen se ajuste correctamente al contenedor redondo */
+    .header-image{
+        float: right;
+        height: auto;
+        width: 0%;   
     }
     .social-media-links{
         width: 100%;
