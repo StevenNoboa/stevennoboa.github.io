@@ -1751,7 +1751,7 @@ For devices with smaller width like mobile phone
             }
             .contact-info{
                 width: 90%;
-                height: 600px;
+                height: 500px;
                 background-position: center;
                 background-size: cover;
                 border-radius: 16px;
@@ -2233,12 +2233,12 @@ for tabs and large phones
                 justify-content: center;
             }
             .contact-info{
-                width: 900%;
-                height: 700px;
+                width: 70%;
+                height: 500px;
                 background-position: center;
                 background-size: cover;
                 border-radius: 16px;
-                margin-bottom: 40px;
+                margin-bottom: 50px;
                 position: relative;
                 overflow: hidden;
             }
