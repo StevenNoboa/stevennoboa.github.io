@@ -1450,10 +1450,18 @@ For devices with smaller width like mobile phone
     .contact{
         display: none;
     }
-    .header-image{
-        float: right;
-        height: auto;
-        width: 0%;   
+    .header-image {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        width: 35%; /* Ajusta según sea necesario */
+        height: 60%; /* Mantén las dimensiones iguales para asegurar un círculo perfecto */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden; /* Asegura que cualquier parte de la imagen fuera del círculo no se muestre */
+        border-radius: 50%; /* Hace que el contenedor sea un círculo */  
     }
     .social-media-links{
         width: 100%;
@@ -1905,10 +1913,18 @@ for tabs and large phones
         letter-spacing: 2px;
         font-size: 40px;
     }
-    .header-image{
-        float: right;
-        height: auto;
-        width: 0%;   
+    .header-image {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        width: 35%; /* Ajusta según sea necesario */
+        height: 60%; /* Mantén las dimensiones iguales para asegurar un círculo perfecto */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden; /* Asegura que cualquier parte de la imagen fuera del círculo no se muestre */
+        border-radius: 50%; /* Hace que el contenedor sea un círculo */
     }
     .social-media-links{
         width: 100%;
