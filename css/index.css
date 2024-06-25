@@ -1580,7 +1580,7 @@ For devices with smaller width like mobile phone
         border-radius: 10%;
     }
     .service{
-        height:320px;
+        height: 420px;
         width:90%;
         margin: 1.5%;
         background-color: #191919;
@@ -2425,7 +2425,7 @@ for tabs and large phones
     
     }
     .service{
-        height:400px;
+        height:420px;
         width:28%;
         margin: 1.5%;
         padding: 10px;
@@ -2560,7 +2560,7 @@ for tabs and large phones
         align-items: center;
         justify-content: center;
     }
-    .contact-info{
+ .contact-info{
         width: 40%;
         height: 600px;
         background-position: center;
