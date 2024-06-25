@@ -1925,6 +1925,13 @@ for tabs and large phones
         align-items: center;
         overflow: hidden; /* Asegura que cualquier parte de la imagen fuera del círculo no se muestre */
         border-radius: 50%; /* Hace que el contenedor sea un círculo */
+        
+    }
+    .header-image img {
+        width: 100%;
+        height: 100%; /* Mantén la proporción de la imagen */
+        border-radius: 50%;
+        object-fit: contain; /* Asegura que la imagen se ajuste correctamente al contenedor redondo */
     }
     .social-media-links{
         width: 100%;
