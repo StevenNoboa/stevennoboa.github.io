@@ -1739,12 +1739,12 @@ For devices with smaller width like mobile phone
                 justify-content: center;
             }
             .contact-info{
-                width: 90%;
-                height: 500px;
+                width: 40%;
+                height: 700px;
                 background-position: center;
                 background-size: cover;
-                border-radius: 16px;
-                margin-bottom: 25px;
+                border-radius: 12px;
+                margin-bottom: 50px;
                 position: relative;
                 overflow: hidden;
             }
@@ -2211,11 +2211,11 @@ for tabs and large phones
                 justify-content: center;
             }
             .contact-info{
-                width: 70%;
-                height: 500px;
+                width: 40%;
+                height: 700px;
                 background-position: center;
                 background-size: cover;
-                border-radius: 16px;
+                border-radius: 12px;
                 margin-bottom: 50px;
                 position: relative;
                 overflow: hidden;
