@@ -1608,24 +1608,18 @@ For devices with smaller width like mobile phone
         height:80px;
         transition: all .8s ease;
     }
-    .skill-item {
-        flex-direction: column;
-        align-items: center;
+    .skill{
+        width:80%;
     }
-
-    .skill-icon {
-        margin-right: 0;
-        margin-bottom: 10px;
+    .prog{
+        height:30px;
     }
-
-    .skill-name {
-        text-align: center;
+    .skills-content{
+        height: auto;
+        width:100%;
+        margin-top: 20px;
+        margin-bottom: 15px;
     }
-
-    .skill-check {
-        margin-top: 10px;
-    }
-}
     .portfolio{
         height:auto;
         width: 100%;
