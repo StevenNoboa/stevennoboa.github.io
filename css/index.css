@@ -676,7 +676,7 @@ body{
 
 
 #skills {
-    padding: 30px 0;
+    padding: 30px;
     background: #ffffff;
 }
 
@@ -1608,18 +1608,24 @@ For devices with smaller width like mobile phone
         height:80px;
         transition: all .8s ease;
     }
-    .skill{
-        width:80%;
+    .skill-item {
+        flex-direction: column;
+        align-items: center;
     }
-    .prog{
-        height:30px;
+
+    .skill-icon {
+        margin-right: 0;
+        margin-bottom: 10px;
     }
-    .skills-content{
-        height: auto;
-        width:100%;
-        margin-top: 20px;
-        margin-bottom: 15px;
+
+    .skill-name {
+        text-align: center;
     }
+
+    .skill-check {
+        margin-top: 10px;
+    }
+}
     .portfolio{
         height:auto;
         width: 100%;
